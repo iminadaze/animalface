@@ -113,8 +113,8 @@
                     };
 
                     reader.readAsDataURL(input.files[0]);
-                    init().then(() => {
-                        console.log('hello');
+                    init().then(function(){
+                        console.log("hello");
                         predict();
                     });
                 } else {
