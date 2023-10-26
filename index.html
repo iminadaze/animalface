@@ -170,23 +170,23 @@
                 console.log(prediction[0].className);
                 var resultMessege;
                 switch (prediction[0].className) {
-                    case 'dog':
-                        resultMessege = '강아지상'
+                    case "dog":
+                        resultMessege = "강아지상"
                         break;
-                    case 'cat':
-                        resultMessege = '고양이상'
+                    case "cat":
+                        resultMessege = "고양이상"
                         break;
-                    case 'bear':
-                        resultMessege = '곰상'
+                    case "bear":
+                        resultMessege = "곰상"
                         break;
-                    case 'dinosaur':
-                        resultMessege = '공룡상'
+                    case "dinosaur":
+                        resultMessege = "공룡상"
                         break;
-                    case 'rabbit':
-                        resultMessege = '토끼상'
+                    case "rabbit":
+                        resultMessege = "토끼상"
                         break;
                     default:
-                        resultMessege = '알수없음'
+                        resultMessege = "알수없음"
                 }
                 $('.result-message').html(resultMessege);
                 for (let i = 0; i < maxPredictions; i++) {
